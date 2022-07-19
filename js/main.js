@@ -74,7 +74,7 @@ const marks2 = {
     for (const nr of this.marks) {
       sum += nr;
     }
-    console.log('sum ===', sum);
+    // console.log('sum ===', sum);
     const avg = sum / this.marks.length;
     console.log(`marks average is ${avg.toFixed(2)}`);
     return avg.toFixed(2);
@@ -102,3 +102,7 @@ const marks2 = {
 
 const marksArr = [marks1, marks2];
 // sukti for of cikla ir atspausdinti vidurkius
+for (const el of marksArr) {
+  const vid = el.avg();
+  console.log('avg: ', vid);
+}
