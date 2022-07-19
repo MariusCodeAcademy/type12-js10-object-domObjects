@@ -7,6 +7,9 @@ const obj1 = {
 
 // ciklas per objekata
 // for (key in obj) { value = obj[key] }
+// Object.keys(obj)
+// Object.values(obj)
+// Object.entries(obj)
 const valuesArr = [];
 const keysAndValues = [];
 for (const key in obj1) {
@@ -18,3 +21,4 @@ for (const key in obj1) {
 }
 console.log('valuesArr ===', valuesArr);
 console.log('keysAndValues ===', keysAndValues);
+console.log(Object.entries(obj1));
