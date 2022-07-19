@@ -24,8 +24,9 @@ const domElement = {
     }, 3000);
   },
 };
-
+// taikymasis
 domElement.target('.target');
+
 console.log('domElement.getText() ===', domElement.getText());
 domElement.setText('pakeiciau su domElement');
 console.log('domElement.getClasses() ===', domElement.getClasses());
